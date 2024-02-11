@@ -70,31 +70,3 @@ function DashboardCard({
 }
 
 export default DashboardCard;
-{
-  /* <Fragment>
-      {newArr?.map((item: any) => (
-        <div
-          key={item.id}
-          className="flex flex-col max-w-80 m-4 bg-white border-1 border border-indigo-600 rounded-md"
-          onDragOver={(e) => dragOverHandler(e)}
-          onDragLeave={(e) => dragLeaveHandler(e)}
-          onDragStart={(e) => dragStartHandler(e, board, item)}
-          onDragEnd={(e) => dragEndHandler(e)}
-          draggable={true}
-          onClick={() => {
-            navigate(`card/${item.id}`);
-          }}
-        >
-          <p> {item.title}</p>
-          <div className="flex flex-row justify-between">
-            <div className="flex flex-row">
-              <img src={item.priorityIcon} alt="" className="w-10" />
-              <span className="item-content__point">{item.point}</span>
-            </div>
-
-            <img className="w-10" src={item.imgUser} alt="" />
-          </div>
-        </div>
-      ))}
-    </Fragment> */
-}

@@ -46,7 +46,7 @@ function Dashboard() {
   function dragOverHandler(e: React.DragEvent<HTMLDivElement>): void {
     e.preventDefault();
 
-    if ((e.target as HTMLElement).className == "item") {
+    if ((e.target as HTMLElement).className === "item") {
       (e.target as HTMLElement).style.boxShadow = `0 2px 3px gray`;
     }
   }
