@@ -111,4 +111,3 @@ export const SORT_BY_DATE = gql`
     }
   }
 `;
-// ASC
